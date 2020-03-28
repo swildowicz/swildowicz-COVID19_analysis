@@ -128,11 +128,11 @@ covid19_confirmed_data = get_covid_data(covid19_confirmed_data_cleaned,'Cases','
 covid19_recovered_data = get_covid_data(covid19_recovered_data_cleaned,'Cases','Total Recoveries')
 covid19_deaths_data = get_covid_data(covid19_deaths_data_cleaned,'Cases','Total Deaths')
 
-NUM_COUNTRIES_TO_ANALIZES = 10
+NUM_COUNTRIES_TO_ANALYSES = 10
 # find 10 the bigest countries
-the_bigest_countries = find_the_bigest_countries(NUM_COUNTRIES_TO_ANALIZES)
+the_bigest_countries = find_the_bigest_countries(NUM_COUNTRIES_TO_ANALYSES)
 # find 10 the most populated countries
-the_most_populated_countries = find_the_most_populated_countries(NUM_COUNTRIES_TO_ANALIZES)
+the_most_populated_countries = find_the_most_populated_countries(NUM_COUNTRIES_TO_ANALYSES)
 
 #print information
 print("$> 10 the bigest countries")
